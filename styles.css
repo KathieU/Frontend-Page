@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.data-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+p {
+  font-weight: bold;
+}
+
+p span {
+  font-weight: lighter;
+}

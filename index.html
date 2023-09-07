@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data Showcase</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-testid="page-title">Frontend Page Creation</h1>
+
+      <!-- Personal Data -->
+      <div class="data-box" data-testid="personal-info">
+        <h2><span data-testid="slackUserName">Kathie</span></h2>
+        <img
+          data-testid="slackDisplayImage"
+          alt="Kathie"
+          src="./display-image.jpg"
+        />
+
+        <p>Track: <span data-testid="myTrack">Frontend</span></p>
+        <p>
+          Github:
+          <span data-testid="githubURL"
+            ><a href="https://github.com/KathieU/Frontend-Page"
+              >Github repo</a
+            ></span
+          >
+        </p>
+      </div>
+
+      <!-- Real-time Data -->
+      <div class="data-box" data-testid="real-time-info">
+        <h2>Real-time Information</h2>
+        <p>
+          Day of the week:
+          <span data-testid="currentDayOfTheWeek"></span>
+        </p>
+        <p>Current UTC Time: <span data-testid="currentUTCTime"></span></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
